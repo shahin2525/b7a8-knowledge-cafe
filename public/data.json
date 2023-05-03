@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "6452db37c854517edb4910d6",
+    "cover_image_url": "http://placehold.it/32x32",
+    "author_image_url": "http://placehold.it/32x32",
+    "read_time": 5,
+    "author_name": "Gaines Noel",
+    "title_description": "830 Drew Street, Savage, Arizona, 9713",
+    "published_date": "2017-12-08T06:01:25 +08:00"
+  },
+  {
+    "_id": "6452db37abff777c1267929e",
+    "cover_image_url": "http://placehold.it/32x32",
+    "author_image_url": "http://placehold.it/32x32",
+    "read_time": 8,
+    "author_name": "Liliana Turner",
+    "title_description": "312 Martense Street, Aberdeen, Missouri, 6155",
+    "published_date": "2022-04-25T11:24:39 +07:00"
+  },
+  {
+    "_id": "6452db377603ebd5ecf8323a",
+    "cover_image_url": "http://placehold.it/32x32",
+    "author_image_url": "http://placehold.it/32x32",
+    "read_time": 6,
+    "author_name": "Robyn Mcpherson",
+    "title_description": "209 Lenox Road, Drummond, Pennsylvania, 7226",
+    "published_date": "2014-09-17T09:01:15 +07:00"
+  },
+  {
+    "_id": "6452db3735b155e0af244876",
+    "cover_image_url": "http://placehold.it/32x32",
+    "author_image_url": "http://placehold.it/32x32",
+    "read_time": 9,
+    "author_name": "Stark Ray",
+    "title_description": "742 Metrotech Courtr, Beaverdale, California, 9886",
+    "published_date": "2020-12-03T02:09:21 +08:00"
+  }
+]
