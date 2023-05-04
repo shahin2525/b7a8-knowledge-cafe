@@ -1,0 +1,26 @@
+.knowledge-container {
+  display: grid;
+
+  grid-template-columns: 2fr 1fr;
+  /* margin: 0px 300px 30px 300px; */
+  margin: 0px 300px 30px 300px;
+}
+.skill-container {
+  width: 545px;
+  height: 821px;
+}
+.skill-info {
+  width: 315px;
+  margin-left: 15px;
+
+  color: blue;
+  background-color: beige;
+}
+
+@media screen and (max-width: 576px) {
+  .knowledge-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px 20px 0px 20px;
+  }
+}

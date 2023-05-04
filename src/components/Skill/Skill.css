@@ -1,0 +1,59 @@
+.skill {
+  margin-bottom: 40px;
+}
+.skill img {
+  width: 545px;
+  height: 450px;
+}
+
+.skill img.author-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.author-description-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px;
+}
+
+.author-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding: 0px 0px;
+  line-height: 5px;
+}
+
+.book-marks-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-marks-box p {
+  margin-right: 10px;
+}
+.book-marks-icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+.title-and-mark-read-box {
+  line-height: 10px;
+}
+/* h2 {
+  line-height: 10px;
+} */
+a {
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.description h5 {
+}
