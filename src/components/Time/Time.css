@@ -1,0 +1,12 @@
+.time-adder {
+  color: blue;
+  background-color: #dcd9eb;
+  border: 1px solid #6047ec;
+  border-radius: 8px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  padding: 21px 45px 21px 45px;
+}

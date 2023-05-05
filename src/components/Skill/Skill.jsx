@@ -11,8 +11,7 @@ const Skill = (props) => {
     title_description,
   } = props.skill;
   const handleData = props.handleData;
-  // const {handleData} = {props.handleData}
-  // console.log(props);
+  const handleReadTime = props.handleReadTime;
 
   return (
     <div className="skill">
@@ -54,7 +53,15 @@ const Skill = (props) => {
       </div>
       <div className="title-and-mark-read-box">
         <h2>{title_description}</h2>
-        <a href="">marks as read</a>
+
+        <button
+          onClick={() => {
+            handleReadTime(props.skill);
+          }}
+          className="mark-read-btn"
+        >
+          marks as read
+        </button>
       </div>
     </div>
   );

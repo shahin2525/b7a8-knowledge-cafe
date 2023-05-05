@@ -51,7 +51,19 @@
 /* h2 {
   line-height: 10px;
 } */
-a {
+/* a {
   text-decoration: none;
+} */
+
+.mark-read-btn {
+  text-decoration: underline;
+  border: none;
+  color: black;
+  background-color: white;
   margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.mark-read-btn:hover {
+  color: rgb(21, 156, 228);
 }

@@ -3,8 +3,9 @@ import "./Mark.css";
 
 const Mark = (props) => {
   const { title_description, id, author_name } = props.bookMarks;
-  console.log(props);
+  // console.log(props);
   const bookMarks = props.bookMarks;
+  // console.log(bookMarks);
   let time = 0;
   let title = "";
   for (const mark of bookMarks) {
@@ -15,7 +16,9 @@ const Mark = (props) => {
     <div className="mark">
       <h4>Bookmarked blogs: {bookMarks.length}</h4>
 
-      <p>{title}</p>
+      {/* {bookMarks.map((bookmark) => (
+        <p>{bookmark}</p>
+      ))} */}
     </div>
   );
 };
