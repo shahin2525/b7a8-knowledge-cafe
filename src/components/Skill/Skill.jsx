@@ -10,7 +10,10 @@ const Skill = (props) => {
     read_time,
     title_description,
   } = props.skill;
-  console.log(props.skill);
+  const handleData = props.handleData;
+  // const {handleData} = {props.handleData}
+  // console.log(props);
+
   return (
     <div className="skill">
       <img src={cover_image} alt="" />
@@ -24,7 +27,12 @@ const Skill = (props) => {
         </div>
         <div className="book-marks-box">
           <p>0{read_time} min read</p>
-          <span className="book-marks-icon">
+          <span
+            onClick={() => {
+              handleData(props.skill);
+            }}
+            className="book-marks-icon"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -2,8 +2,9 @@
   display: grid;
 
   grid-template-columns: 2fr 1fr;
-  /* margin: 0px 300px 30px 300px; */
+
   margin: 0px 300px 30px 300px;
+  position: relative;
 }
 .skill-container {
   width: 545px;
@@ -11,10 +12,8 @@
 }
 .skill-info {
   width: 315px;
-  margin-left: 15px;
-
-  color: blue;
-  background-color: beige;
+  margin-left: 10px;
+  /* padding: 10px 15px; */
 }
 
 @media screen and (max-width: 576px) {
