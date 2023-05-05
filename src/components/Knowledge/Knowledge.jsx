@@ -9,7 +9,7 @@ const Knowledge = () => {
 
   const handleData = (skill) => {
     const newArray = [...bookMarks, skill];
-    // console.log(newArray);
+    console.log(newArray);
     setBookMarks(newArray);
     // if (skill.id === bookMarks.id) {
     //   alert("this blog id is clicked");
