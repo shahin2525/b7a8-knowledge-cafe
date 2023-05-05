@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Knowledge.css";
 import Skill from "../skill/skill";
 import Mark from "../Mark/Mark";
+import Question from "../Question/Question";
 
 const Knowledge = () => {
   const [skills, setSkills] = useState([]);
@@ -26,6 +27,7 @@ const Knowledge = () => {
         {skills.map((skill) => (
           <Skill skill={skill} key={skill.id} handleData={handleData}></Skill>
         ))}
+        <Question></Question>
       </div>
       <div className="skill-info">
         <Mark bookMarks={bookMarks}></Mark>

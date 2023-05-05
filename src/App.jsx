@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Knowledge from "./components/Knowledge/Knowledge";
+import Question from "./components/Question/Question";
 
 function App() {
   return (
