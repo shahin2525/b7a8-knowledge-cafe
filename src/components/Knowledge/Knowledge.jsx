@@ -12,7 +12,7 @@ const Knowledge = () => {
 
   const handleData = (skill) => {
     const newArray = [...bookMarks, skill];
-
+    console.log(newArray);
     setBookMarks(newArray);
 
     // if (skill.id === bookMarks.id) {
