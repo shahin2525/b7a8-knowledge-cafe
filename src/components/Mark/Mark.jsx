@@ -15,6 +15,7 @@ const Mark = (props) => {
   return (
     <div className="mark">
       <h4>Bookmarked blogs: {bookMarks.length}</h4>
+      <p className="title-box">{title}</p>
 
       {/* {bookMarks.map((bookmark) => (
         <p>{bookmark}</p>
