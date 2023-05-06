@@ -12,3 +12,11 @@
   width: 60px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 576px) {
+  .header {
+    margin-bottom: 20px;
+    flex-direction: column;
+    height: 140px;
+  }
+}
